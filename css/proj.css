@@ -1,0 +1,170 @@
+/*Proj Page*/
+
+html{
+  background-color: rgb(249,149,74);
+}
+
+/* if there is a prob with x-scrolling. it will be because padding-right on imgs*/
+html,body{
+  overflow-y: auto;
+}
+
+
+
+.mainPageContent{
+  height:100%;
+  margin-left: 70px;
+  padding: 0px, auto;
+  /*  border: 5px dotted purple; */
+    background-image: url(../assets/proj/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* no highlighting */
+    -webkit-touch-callout: none; /* iOS Safari */
+       -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Firefox */
+           -ms-user-select: none; /* Internet Explorer/Edge */
+               user-select: none; /* Non-prefixed version, currently
+                                     supported by Chrome and Opera */
+
+
+}
+
+#headings h1{
+  color: orange;
+  font-size: 35px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: -30px;
+}
+
+/* Style the Image Used to Trigger the Modal */
+
+.projectsContent{
+  /*border: 5px dotted pink;*/
+  padding-left: 4%;
+}
+
+.websites {
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 3%;
+    border-radius: 15px 50px;
+    width: 375px;
+    height: 200px;
+}
+
+.apps {
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 3%;
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.research {
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 3%;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.research:hover,.apps:hover,.websites:hover {
+  opacity: 0.7;
+}
+
+/* for research inquiry small text in heading*/
+#CtcMe{
+  font-size: 1rem;
+}
+
+#ctcL{
+  text-decoration: none;
+  color: blue;
+  -webkit-transition: color .5s ease-out;
+
+}
+
+#ctcL:hover{
+  color: red;
+  transition: .5s;
+}
+
+@media screen (max-height: 900px) {
+  .mainSideBar{
+    padding-bottom: 15%;
+  }
+}
+
+@media (max-height: 800px){
+  .mainSideBar{
+    padding-bottom: 25%;
+  }
+}
+
+@media (max-width: 1900px){
+  .mainSideBar{
+    padding-bottom: 25%;
+  }
+}
+@media (max-width: 1350px){
+  .mainSideBar{
+    padding-bottom: 50%;
+  }
+}
+@media (max-width: 1100px) {
+  #headings h1{
+    color: white;
+    margin-left: 20px;
+  }
+
+    .mainSideBar{
+      padding-bottom: 120%;
+    }
+
+}
+
+@media (max-width: 850px){
+  .mainSideBar{
+    padding-bottom: 190%;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainPageContent{
+    padding-top: 25%;
+    margin-left: 0;
+  }
+
+html,body{
+  height: 100%;
+  overflow-x: hidden;
+  }
+
+  .websites{
+    width: 340px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .apps{
+    width: 150px;
+    height: 150px;
+  }
+  .research{
+    width: 150px;
+    height: 150px;
+  }
+  #CtcMe{
+    font-size: .8rem;
+  }
+
+}

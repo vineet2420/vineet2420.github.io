@@ -1,0 +1,202 @@
+/*About Page*/
+
+html{
+  background-color: #be6dd5;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+.mainPageContent{
+font-family: 'Dosis', sans-serif;
+position: fixed;
+height: 100%;
+width: 100%;
+margin-left: 70px;
+text-align: center;
+/*  border: 5px dotted purple;*/
+  background-image: url(../assets/about/bg.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.iPhoneImg{
+  overflow-y: hidden;
+  height: 100vh;
+  width: 40%;
+  float: right;
+/*  border: 3px pink solid;
+  background-image: url(../assets/about/rightBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+}
+
+.iPhoneImg img{
+  height: 100%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: height .5s ease-out;
+}
+
+.iPhoneImg img:hover{
+  height: 110%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .5s;
+}
+
+.introTxt{
+/*  border: 2px white dotted;*/
+  width: 60%;
+  height: auto;
+  margin: 5% auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin-left: 2%;
+}
+
+.introTxt h1{
+  color: white;
+  font-size: 2.5vw;
+  text-align: left;
+}
+.introTxt p{
+  margin-left: 3%;
+  color: white;
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+.icons{
+  width:100%;
+  height: auto;
+  text-align: center;
+  margin-left: -15%;
+  padding-top: 2%;
+/*  border: 2px solid pink;*/
+
+
+}
+.icons i {
+  cursor: pointer;
+  display: block;
+  font-size: 3vw;
+  color:#FF8203;
+  padding-bottom: 20px;
+
+  transition: 0.3s;
+
+}
+
+
+.icons i:hover{
+  color: #be6dd5;
+}
+
+.icons li {
+	  text-align: center;
+    width: auto;
+/*    border: 5px solid black; */
+    display: inline-block;
+    margin-left: 5%;
+    resize: both;
+
+}
+
+.icons a{
+  text-decoration:none;
+  display:block;
+  color: white;
+
+}
+
+#stlChange{
+color: #be6dd5;
+}
+
+
+
+@media (max-width: 1300px) {
+  .iPhoneImg{
+    display: none;
+  }
+
+  .mainPageContent{
+    text-align: center;
+  }
+
+  .introTxt{
+    margin: auto;
+    top: 10%;
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  .introTxt p{
+    font-size: 1.5rem;
+  }
+  .introTxt h1{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .icons{
+    margin: auto;
+  }
+  .icons i{
+    font-size: 3rem;
+    padding-bottom: 10%;
+
+  }
+
+  .icons i:hover{
+    color: blue;
+    transition: .5s;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+.mainPageContent{
+    margin-left: 0;
+    overflow-y: auto;
+
+  }
+
+
+    #abtTxtSPC{
+      margin-left: 3%;
+    }
+
+    #iconsSPC{
+      margin-left:-3%;
+    }
+
+  .introTxt{
+    top: 15%;
+    width: auto;
+    margin-left: 0;
+  }
+
+  .icons {
+    margin-left: 0px;
+    left: 0;
+  }
+
+  .icons li{
+    padding-left: 0px;
+  }
+
+  /*for skills color change, cant see pink on pink! */
+  #stlChange{
+    color: white;
+  }
+}
