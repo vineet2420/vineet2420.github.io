@@ -50,6 +50,11 @@ html,body{
   padding-left: 4%;
 }
 
+
+.projectsContent img{
+  padding-top: 10px;
+}
+
 .websites {
     cursor: pointer;
     transition: 0.3s;
@@ -110,9 +115,9 @@ html,body{
   }
 }
 
-@media (max-width: 1900px){
+@media (max-width: 1920px){
   .mainSideBar{
-    padding-bottom: 25%;
+    padding-bottom: 20%;
   }
 }
 @media (max-width: 1350px){
