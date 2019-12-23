@@ -1,4 +1,4 @@
-/*Proj Page*/
+/*Ctc Page*/
 
 html{
   background-color: rgb(0,159,99);
@@ -51,7 +51,7 @@ background-size: cover;
  label {
    text-align: right;
   /* border: 5px green solid; */
-   width: 40%;
+   width: 28em;
    display: block;
    padding-bottom: 15px;
    font-size: 20px;
@@ -61,6 +61,7 @@ background-size: cover;
 
 input.label2{
   background-color: #efefef;
+  width: 20em;
 }
 
 input.email {
@@ -135,7 +136,7 @@ margin: 0 0 40px 20px;
 
  label{
    text-align: left;
-   width: 40%;
+   width: 28em;
  }
  input.email {
    background-color: #efefef;

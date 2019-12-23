@@ -1,5 +1,5 @@
 <?php
-header('Refresh: 0; URL=http://contactvineet.x10host.com/');
+header('Refresh: 0; URL=https://vineet2420.github.io/');
 
    function clean_string($string) {
     $bad = array("content-type","bcc:","to:","cc:","href");
@@ -13,7 +13,7 @@ header('Refresh: 0; URL=http://contactvineet.x10host.com/');
 
 if (isset($_POST['email'])) {
   // EDIT THE 2 LINES BELOW AS REQUIRED
-  $email_to = "vineet.malhotra125@gmail.com";
+  $email_to = "vineet.malhotra120@gmail.com";
   $email_subject = "Message From Your Site";
 
 
@@ -36,7 +36,7 @@ if (isset($_POST['email'])) {
   $string_exp = "/^[A-Za-z .'-]+$/";
 
   if(!preg_match($string_exp,$first_name)) {
-    $error_message .= 'The First Name you entered is invalid.\n';
+    $error_message .= 'The Name you entered is invalid.\n';
   }
 
 
