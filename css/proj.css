@@ -77,9 +77,10 @@ html,body{
     cursor: pointer;
     transition: 0.3s;
     margin-right: 3%;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 200px;
     height: 200px;
+    
 }
 
 .research:hover,.apps:hover,.websites:hover {
@@ -117,7 +118,7 @@ html,body{
 
 @media (max-width: 1920px){
   .mainSideBar{
-    padding-bottom: 20%;
+    padding-bottom: 30%;
   }
 }
 @media (max-width: 1350px){
