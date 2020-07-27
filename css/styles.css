@@ -184,6 +184,14 @@ font-size: 1.5em;
 }
 
 /*social*/
+.fa-github {
+  color:#4D4D4E;
+  font-size: 5em;
+}
+
+.fa-github:hover{
+  color:#0080FF;
+}
 
 .fa-linkedin-in{
   color:#4D4D4E;

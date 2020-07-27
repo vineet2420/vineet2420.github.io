@@ -75,6 +75,30 @@ img{
   font-family: 'PT Sans', sans-serif;
   text-align: center;
 }
+
+#subBioText{
+  padding: 10px 0px 0px 0px;
+}
+
+#subBioText .fa-github{
+  padding-right: 10px;
+  color: white;
+}
+
+#subBioText .fa-github:hover{
+  color: gray;
+}
+
+#subBioText .fa-linkedin-in{
+  padding-right: 10px;
+  color: #0000A0;
+}
+
+#subBioText .fa-linkedin-in:hover{
+  padding-right: 10px;
+  color: gray;
+}
+
 mark{
   background-color: yellow;
 }
