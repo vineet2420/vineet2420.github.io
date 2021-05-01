@@ -64,6 +64,7 @@ html,body{
     height: 200px;
 }
 
+
 .apps {
     cursor: pointer;
     transition: 0.3s;
@@ -80,7 +81,7 @@ html,body{
     border-radius: 30px;
     width: 200px;
     height: 200px;
-    
+
 }
 
 .research:hover,.apps:hover,.websites:hover {
