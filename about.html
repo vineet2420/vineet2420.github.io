@@ -1,147 +1,203 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
     <title>Vineet Malhotra | Software Engineer</title>
 
     <!--Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Happy+Monkey|PT+Sans" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis|Happy+Monkey|PT+Sans"
+      rel="stylesheet"
+    />
     <!--Linking Css sheet-->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <!--font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-<img id = "devrt" src = "assets/devRt.png" height= "200px" width = "auto">
-<!--Right content-->
+    <img id="devrt" src="assets/devRt.png" height="200px" width="auto" />
+    <!--Right content-->
 
-    <div class = "mainPageContent">
-
-      <div class = "introTxt" id = "abtTxtSPC">
-        <h1><span style= "color: #be6dd5">About me</span></h1><br /><br />
+    <div class="mainPageContent">
+      <div class="introTxt" id="abtTxtSPC">
+        <h1><span style="color: #be6dd5;">About me</span></h1>
+        <br /><br />
         <p>
-            My name is Vineet Malhotra - developer, designer, researcher and life-long student based in Long Island, New York.
-          Aside from an extreme desire for Oreos, I enjoy developing fluid iOS applications, designing crisp websites and indulging myself in various research fields.<br />
-          I live by an obligation to only give 110% into anything I start. There are no short cuts in hard work. Feel free to peruse around and keep in touch!<br /><br />
+          My name is Vineet Malhotra - developer, designer, researcher and
+          life-long student based in Long Island, New York. Aside from an
+          extreme desire for Oreos, I enjoy developing fluid iOS applications,
+          designing crisp websites and indulging myself in various research
+          fields.<br />
+          I live by an obligation to only give 110% into anything I start. There
+          are no short cuts in hard work. Feel free to peruse around and keep in
+          touch!<br /><br />
         </p>
 
+        <h1>
+          <span id="stlChange">Skills: </span>&nbsp<i class="fas fa-code"></i>
+        </h1>
+        <br /><br />
 
-      <h1><span id = "stlChange">Skills: </span>&nbsp<i class="fas fa-code"></i></h1><br /><br />
+        <div class="icons" id="iconsSPC">
+          <li>
+            <a><i class="fab fa-app-store-ios"></i><span>Swift iOS</span></a>
+          </li>
 
-<div class="icons" id = "iconsSPC">
-      <li>
-        <a><i class="fab fa-app-store-ios"></i><span>Swift iOS</span></a>
-      </li>
+          <li>
+            <a><i class="fab fa-html5"></i><span>HTML 5</span></a>
+          </li>
 
-      <li>
-        <a><i class="fab fa-html5"></i><span>HTML 5</span></a>
-      </li>
+          <li>
+            <a><i class="fab fa-css3-alt"></i><span>CSS</span></a>
+          </li>
 
-      <li>
-        <a><i class="fab fa-css3-alt"></i><span>CSS</span></a>
-      </li>
+          <li>
+            <a><i class="fab fa-python"></i><span>Python</span></a>
+          </li>
 
-      <li>
-        <a><i class="fab fa-python"></i><span>Python</span></a>
-      </li>
+          <li>
+            <a><i class="fab fa-java"></i><span>Java</span></a>
+          </li>
 
-      <li>
-        <a><i class="fab fa-java"></i><span>Java</span></a>
-      </li>
+          <li>
+            <a><i class="fab fa-github"></i><span>Git</span></a>
+          </li>
 
-      <li>
-        <a><i class="fab fa-github"></i><span>Git</span></a>
-      </li>
-
-      <li>
-        <a><i class="fas fa-atom"></i><span>Research</span></a>
-      </li>
-
-
-</div>
-
+          <li>
+            <a><i class="fas fa-atom"></i><span>Research</span></a>
+          </li>
+        </div>
       </div>
 
-        <div class = "iPhoneImg">
-          <img src = "assets/about/iphoneLogos.png">
-         </div>
-
+      <div class="iPhoneImg">
+        <img src="assets/about/iphoneLogos.png" />
       </div>
+    </div>
 
-      <div class = "topBar">
+    <div class="topBar">
+      <table style="width: 100%;">
+        <tr>
+          <td id="home" onclick="window.location.href='index.html'">
+            <button class="fas fa-home"></button>
+            <p>Home</p>
+          </td>
+          <td id="abt" onclick="window.location.href='about.html'">
+            <button class="fas fa-user" style="color: #ff1493;"></button>
+            <p style="color: #ff1493;">About</p>
+          </td>
+          <td id="prj" onclick="window.location.href='#'">
+            <button
+              class="far fa-lightbulb"
+              onclick="window.location.href='proj.html'"
+            ></button>
+            <p>Projects</p>
+          </td>
+          <td
+            id="ctcBtn"
+            onclick="window.location.href='mailto:vineet.malhotra.cs@gmail.com'"
+          >
+            <button
+              class="far fa-envelope"
+              onclick="window.location.href='http://ctc.x10host.com/'"
+            ></button>
+            <p>Contact</p>
+          </td>
+        </tr>
+      </table>
+    </div>
 
-        <table style="width:100%">
-
-          <tr>
-            <td id="home" onclick="window.location.href='index.html'"><button class="fas fa-home"></button><p>Home</p></td>
-            <td id="abt"  onclick="window.location.href='about.html'"><button class="fas fa-user"  style= "color: #FF1493;"></button><p style= "color: #FF1493;">About</p></td>
-            <td id="prj" onclick="window.location.href='#'"><button class="far fa-lightbulb" onclick="window.location.href='proj.html'" ></button><p >Projects</p></td>
-            <td id="ctcBtn" onclick="window.location.href='mailto:vineet.malhotra.cs@gmail.com'"><button class="far fa-envelope" onclick="window.location.href='http://ctc.x10host.com/'"></button><p>Contact</p></td>
-
-          </tr>
-        </table>
-
-
-
-
-
-      </div>
-
-
-
-<div class = "mainSideBar">
-    <table id = "sideBarSPC">
-      <tr>
-        <td id = "topSPC" >
-          <div class="hoverEffect">
-            <a href = "index.html">
-          <img  id = "name" src = "assets/name.png" height= "200px" width = "auto" >
-          <img  class="img-top" src = "assets/name-hlt.png" height= "200px" width = "auto" >
-          </a>
-          </div>
-        </td>
-      </tr>
+    <div class="mainSideBar">
+      <table id="sideBarSPC">
+        <tr>
+          <td id="topSPC">
+            <div class="hoverEffect">
+              <a href="index.html">
+                <img
+                  id="name"
+                  src="assets/name.png"
+                  height="200px"
+                  width="auto"
+                />
+                <img
+                  class="img-top"
+                  src="assets/name-hlt.png"
+                  height="200px"
+                  width="auto"
+                />
+              </a>
+            </div>
+          </td>
+        </tr>
       </table>
 
-      <table id = "sideBarSPC">
-
-        <tr id="home" onclick="window.location.href='index.html'" >
-          <th id = "icoSPC"><button class="fas fa-home"></button>
-            <span id="homeTxt"><p>Home</p></span></th>
+      <table id="sideBarSPC">
+        <tr id="home" onclick="window.location.href='index.html'">
+          <th id="icoSPC">
+            <button class="fas fa-home"></button>
+            <span id="homeTxt"><p>Home</p></span>
+          </th>
         </tr>
 
-          <tr id="abt"  onclick="window.location.href='#'">
-          <th id = "icoSPC"><button class="fas fa-user" style= "color: #FF1493;"></button><br />
-          <span id="abtMe"><p>About</p></span></th>
+        <tr id="abt" onclick="window.location.href='#'">
+          <th id="icoSPC">
+            <button class="fas fa-user" style="color: #ff1493;"></button><br />
+            <span id="abtMe"><p>About</p></span>
+          </th>
         </tr>
 
         <tr id="prj" onclick="window.location.href='proj.html'">
-        <th id = "icoSPC"><button class="far fa-lightbulb" ></button><br />
-        <span id="projects"><p>Projects</p></span></th>
-      </tr>
-
-          <tr id="ctcBtn" onclick="window.location.href='https://toushisazad.com/ContactVineet.html'">
-          <th id = "icoSPC"><button class="far fa-envelope" ></button>
-          <span id="ctc"><p>Contact</p></span></th>
+          <th id="icoSPC">
+            <button class="far fa-lightbulb"></button><br />
+            <span id="projects"><p>Projects</p></span>
+          </th>
         </tr>
 
+        <tr
+          id="ctcBtn"
+          onclick="window.location.href='https://toushisazad.com/ContactVineet.html'"
+        >
+          <th id="icoSPC">
+            <button class="far fa-envelope"></button>
+            <span id="ctc"><p>Contact</p></span>
+          </th>
+        </tr>
       </table>
 
-    <table>
-      <tr>
-          <th id = "socSPC"><a href="https://github.com/vineet2420" target="_blank"><i class="fa fa-github" style = "font-size: 1.5em"></i></a></th>
-      </tr>
-      <tr>
-          <th id = "socSPC"><a href="https://www.linkedin.com/in/vineet-malhotra-84ba43180" target="_blank"><i class="fab fa-linkedin-in"></i></a></th>
-      </tr>
+      <table>
         <tr>
-        <th id = "socSPC"><i class="far fa-share-square"></i></th>
-      </tr>
-
-    </table>
+          <th id="socSPC">
+            <a href="https://github.com/vineet2420" target="_blank"
+              ><i class="fa fa-github" style="font-size: 1.5em;"></i
+            ></a>
+          </th>
+        </tr>
+        <tr>
+          <th id="socSPC">
+            <a
+              href="https://www.linkedin.com/in/vineet-malhotra-84ba43180"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </th>
+        </tr>
+        <tr>
+          <th id="socSPC"><i class="far fa-share-square"></i></th>
+        </tr>
+      </table>
     </div>
   </body>
 </html>

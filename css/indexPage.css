@@ -1,22 +1,21 @@
 /*Main Page*/
-html{
+html {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: #006de9;
 }
 
-
-img{
+img {
   pointer-events: none;
 }
 
-.mainPageContent{
+.mainPageContent {
   position: fixed;
   height: 100%;
   width: 100%;
   margin-left: 70px;
   text-align: center;
-/*  border: 5px dotted purple;*/
+  /*  border: 5px dotted purple;*/
   background-image: url(../assets/background.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -28,27 +27,25 @@ img{
   float: left;
   height: 85%;
   width: auto;
-/* border: 3px solid green;*/
+  /* border: 3px solid green;*/
 
+  /* no highloighting*/
 
-/* no highloighting*/
-
--webkit-touch-callout: none; /* iOS Safari */
-   -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-      -moz-user-select: none; /* Firefox */
-       -ms-user-select: none; /* Internet Explorer/Edge */
-           user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                  supported by Chrome and Opera */
 }
 
-
-#background{
+#background {
   position: absolute;
   float: right;
   right: 5%;
   bottom: 0;
-/*  border: 5px dotted pink; */
+  /*  border: 5px dotted pink; */
 }
 /*
 #drake{
@@ -59,61 +56,59 @@ img{
 }
 */
 
-.introTxt{
+.introTxt {
   position: relative;
-  top:40%;
+  top: 40%;
   right: 5%;
-  float:right;
-/*  border: 2px white dotted; */
+  float: right;
+  /*  border: 2px white dotted; */
   margin: auto;
   width: 50%;
 }
 
-.introTxt h1{
+.introTxt h1 {
   color: white;
   font-size: 2.5vw;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
-#subBioText{
+#subBioText {
   padding: 10px 0px 0px 0px;
 }
 
-#subBioText .fa-github{
+#subBioText .fa-github {
   padding-right: 10px;
   color: white;
 }
 
-#subBioText .fa-github:hover{
+#subBioText .fa-github:hover {
   color: gray;
 }
 
-#subBioText .fa-linkedin-in{
+#subBioText .fa-linkedin-in {
   padding-right: 10px;
-  color: #0000A0;
+  color: #0000a0;
 }
 
-#subBioText .fa-linkedin-in:hover{
+#subBioText .fa-linkedin-in:hover {
   padding-right: 10px;
   color: gray;
 }
 
-mark{
+mark {
   background-color: yellow;
 }
 
-.introTxt p{
+.introTxt p {
   color: white;
-  font-size: 2.0vw;
-  font-family: 'PT Sans', sans-serif;
+  font-size: 2vw;
+  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
-
-
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-  html{
+  html {
     background-color: #483cba;
     /*  border: 5px dotted purple;
     background-color: #111111;*/
@@ -122,51 +117,44 @@ mark{
     background-position: center;
     background-size: cover;
   }
-
 }
 
-
 @media (max-width: 2000px) {
-  #logo{
+  #logo {
     margin-top: 5%;
     height: 75%;
     width: auto;
   }
-
 }
 
 @media (max-width: 1700px) {
-
-  #logo{
+  #logo {
     margin-top: 10%;
     height: 70%;
     width: auto;
   }
 
-  .introTxt{
+  .introTxt {
     float: right;
     right: 10%;
   }
 }
 
-
 @media (max-width: 1550px) {
-  #logo{
+  #logo {
     margin-top: 10%;
     height: 60%;
     width: auto;
   }
 
-  .introTxt{
+  .introTxt {
     float: right;
     right: 5%;
   }
 }
 
-
-
 @media (max-width: 1200px) {
-  #logo{
+  #logo {
     padding-top: 5%;
     float: none;
     display: block;
@@ -175,8 +163,7 @@ mark{
     width: auto;
   }
 
-
-  .introTxt{
+  .introTxt {
     top: 5%;
     right: 0;
     float: none;
@@ -185,52 +172,47 @@ mark{
     padding-right: 0;
   }
 
-  .introTxt h1{
+  .introTxt h1 {
     color: white;
     font-size: 2rem;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", sans-serif;
     text-align: center;
   }
 
-  .introTxt p{
+  .introTxt p {
     color: white;
     font-size: 1.5rem;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", sans-serif;
     text-align: center;
   }
-
 }
 
 @media (max-width: 600px) {
-
-
-.mainPageContent{
-  padding-top: 15%;
-  overflow-y: auto;
+  .mainPageContent {
+    padding-top: 15%;
+    overflow-y: auto;
     margin-left: 0;
 
     overflow-x: hidden;
-
   }
 
-  #logo{
+  #logo {
     height: 45%;
     width: auto;
   }
 }
 
 @media screen and (max-width: 600px) {
-
-  html,body{
+  html,
+  body {
     overflow-y: auto;
     overflow-x: hidden;
   }
 
-  #logo{
+  #logo {
     margin-top: 5%;
   }
-.mainPageContent{
-position: absolute;
-
+  .mainPageContent {
+    position: absolute;
   }
 }

@@ -1,42 +1,39 @@
 /*Proj Page*/
 
-html{
-  background-color: rgb(249,149,74);
+html {
+  background-color: rgb(249, 149, 74);
 }
 
 /* if there is a prob with x-scrolling. it will be because padding-right on imgs*/
-html,body{
+html,
+body {
   overflow-y: auto;
 }
 
-
-
-.mainPageContent{
-  height:100%;
+.mainPageContent {
+  height: 100%;
   margin-left: 70px;
   padding: 0px, auto;
   /*  border: 5px dotted purple; */
-    background-image: url(../assets/proj/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url(../assets/proj/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-    /* no highlighting */
-    -webkit-touch-callout: none; /* iOS Safari */
-       -webkit-user-select: none; /* Safari */
-        -khtml-user-select: none; /* Konqueror HTML */
-          -moz-user-select: none; /* Firefox */
-           -ms-user-select: none; /* Internet Explorer/Edge */
-               user-select: none; /* Non-prefixed version, currently
+  /* no highlighting */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                      supported by Chrome and Opera */
-
-
 }
 
-#headings h1{
+#headings h1 {
   color: orange;
   font-size: 35px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   text-align: left;
   padding-top: 2%;
   padding-bottom: 1%;
@@ -45,133 +42,130 @@ html,body{
 
 /* Style the Image Used to Trigger the Modal */
 
-.projectsContent{
+.projectsContent {
   /*border: 5px dotted pink;*/
   padding-left: 4%;
 }
 
-
-.projectsContent img{
+.projectsContent img {
   padding-top: 10px;
 }
 
 .websites {
-    cursor: pointer;
-    transition: 0.3s;
-    margin-right: 3%;
-    border-radius: 15px 50px;
-    width: 375px;
-    height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 3%;
+  border-radius: 15px 50px;
+  width: 375px;
+  height: 200px;
 }
 
-
 .apps {
-    cursor: pointer;
-    transition: 0.3s;
-    margin-right: 3%;
-    border-radius: 40px;
-    width: 200px;
-    height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 3%;
+  border-radius: 40px;
+  width: 200px;
+  height: 200px;
 }
 
 .research {
-    cursor: pointer;
-    transition: 0.3s;
-    margin-right: 3%;
-    border-radius: 30px;
-    width: 200px;
-    height: 200px;
-
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 3%;
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
 }
 
-.research:hover,.apps:hover,.websites:hover {
+.research:hover,
+.apps:hover,
+.websites:hover {
   opacity: 0.7;
 }
 
 /* for research inquiry small text in heading*/
-#CtcMe{
+#CtcMe {
   font-size: 1rem;
 }
 
-#ctcL{
+#ctcL {
   text-decoration: none;
   color: blue;
-  -webkit-transition: color .5s ease-out;
-
+  -webkit-transition: color 0.5s ease-out;
 }
 
-#ctcL:hover{
+#ctcL:hover {
   color: red;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 @media screen (max-height: 900px) {
-  .mainSideBar{
+  .mainSideBar {
     padding-bottom: 15%;
   }
 }
 
-@media (max-height: 800px){
-  .mainSideBar{
+@media (max-height: 800px) {
+  .mainSideBar {
     padding-bottom: 25%;
   }
 }
 
-@media (max-width: 1920px){
-  .mainSideBar{
+@media (max-width: 1920px) {
+  .mainSideBar {
     padding-bottom: 30%;
   }
 }
-@media (max-width: 1350px){
-  .mainSideBar{
+@media (max-width: 1350px) {
+  .mainSideBar {
     padding-bottom: 50%;
   }
 }
 @media (max-width: 1100px) {
-  #headings h1{
+  #headings h1 {
     color: white;
     margin-left: 20px;
   }
 
-    .mainSideBar{
-      padding-bottom: 120%;
-    }
-
+  .mainSideBar {
+    padding-bottom: 120%;
+  }
 }
 
-@media (max-width: 850px){
-  .mainSideBar{
+@media (max-width: 850px) {
+  .mainSideBar {
     padding-bottom: 190%;
   }
 }
 
 @media (max-width: 600px) {
-  .mainPageContent{
+  .mainPageContent {
     padding-top: 25%;
     margin-left: 0;
   }
 
-html,body{
-  height: 100%;
-  overflow-x: hidden;
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
   }
 
-  .websites{
+  .websites {
     width: 340px;
     height: auto;
     padding: 10px;
   }
 
-  .apps{
+  .apps {
     width: 150px;
     height: 150px;
   }
-  .research{
+  .research {
     width: 150px;
     height: 150px;
   }
-  #CtcMe{
-    font-size: .8rem;
+  #CtcMe {
+    font-size: 0.8rem;
   }
-
 }
