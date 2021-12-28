@@ -1,7 +1,7 @@
 /*Proj Page*/
 
 
-/* if there is a prob with x-scrolling. it will be because padding-right on imgs*/
+/* if there is a prob with x-scrolling. it will be because padding-right on imgs or the css grid */
 
 html,
 body {
@@ -55,6 +55,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 10px;
     margin-right: 50px;
+    overflow-x: hidden;
 }
 
 .websites>div img {
