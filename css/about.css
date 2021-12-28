@@ -1,190 +1,241 @@
 /*About Page*/
 
 html {
-  background-color: #be6dd5;
-  overflow-y: auto;
-  overflow-x: hidden;
+    /* background-color: #be6dd5; */
+    overflow-y: auto;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../assets/about/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .mainPageContent {
-  font-family: "Dosis", sans-serif;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  margin-left: 70px;
-  text-align: center;
-  /*  border: 5px dotted purple;*/
-  background-image: url(../assets/about/bg.png);
-  background-position: center;
-  background-size: cover;
+    font-family: "Dosis", sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: 70px;
+    text-align: center;
+    /* border: 5px dotted purple; */
+}
+
+.mainSideBar {
+    position: fixed;
+    min-height: 100vh;
+}
+
+#hnews {
+    color: orange;
+    text-decoration: none;
+}
+
+#hnews:hover {
+    color: black;
+    background-color: #ff6600;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-gap: 40px;
+    align-items: stretch;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+
+.grid img {
+    height: 55px;
+    width: 55px;
+}
+
+.extendedGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-gap: 40px;
+    align-items: stretch;
+    margin-left: 5%;
+    width: 85vw;
+    padding-bottom: 20px;
+    /* border: 1px solid green; */
+    padding-right: 5%;
+}
+
+.extendedGrid img {
+    height: 55px;
+    width: 55px;
+    /* border: 1px solid red; */
+}
+
+figcaption {
+    margin-top: 15px;
+    color: white;
 }
 
 .iPhoneImg {
-  overflow-y: hidden;
-  height: 100vh;
-  width: 40%;
-  float: right;
-  /*  border: 3px pink solid;
-  background-image: url(../assets/about/rightBg.png);
+    height: 100%;
+    width: 40%;
+    float: right;
+    /* border: 3px pink solid;
+  background-image: url(../assets/about/rightBg.png); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;*/
 }
 
 .iPhoneImg img {
-  height: 100%;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-transition: height 0.5s ease-out;
+    height: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: height 0.5s ease-out;
 }
 
 .iPhoneImg img:hover {
-  height: 110%;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: 0.5s;
+    height: 110%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
 }
 
 .introTxt {
-  /*  border: 2px white dotted;*/
-  width: 60%;
-  height: auto;
-  margin: 5% auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin-left: 2%;
+    /*  border: 2px white dotted;*/
+    width: 60%;
+    height: auto;
+    margin: 5% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: 2%;
 }
 
 .introTxt h1 {
-  color: white;
-  font-size: 2.5vw;
-  text-align: left;
+    color: white;
+    /* color: #be6dd5; */
+    font-size: 2.5vw;
+    text-align: left;
 }
+
+h2 {
+    color: white;
+    text-align: left;
+    margin-left: 4%;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
 .introTxt p {
-  margin-left: 3%;
-  color: white;
-  font-size: 1.5vw;
-  text-align: left;
+    margin-left: 3%;
+    color: white;
+    font-size: 1.5vw;
+    text-align: left;
 }
 
 .icons {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin-left: -15%;
-  padding-top: 2%;
-  /*  border: 2px solid pink;*/
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: -5%;
+    padding-top: 2%;
+    /*  border: 2px solid pink;*/
 }
-.icons i {
-  cursor: pointer;
-  display: block;
-  font-size: 3vw;
-  color: #ff8203;
-  padding-bottom: 20px;
 
-  transition: 0.3s;
+.icons i {
+    cursor: pointer;
+    display: block;
+    font-size: 3vw;
+    color: #ff8203;
+    padding-bottom: 20px;
+    transition: 0.3s;
 }
 
 .icons i:hover {
-  color: #be6dd5;
+    color: #be6dd5;
 }
 
 .icons li {
-  text-align: center;
-  width: auto;
-  /*    border: 5px solid black; */
-  display: inline-block;
-  margin-left: 5%;
-  resize: both;
+    text-align: center;
+    width: auto;
+    /*    border: 5px solid black; */
+    display: inline-block;
+    margin-left: 5%;
+    resize: both;
 }
 
 .icons a {
-  text-decoration: none;
-  display: block;
-  color: white;
-}
-
-#stlChange {
-  color: #be6dd5;
+    text-decoration: none;
+    display: block;
+    color: white;
 }
 
 @media (max-width: 1300px) {
-  .iPhoneImg {
-    display: none;
-  }
-
-  .mainPageContent {
-    text-align: center;
-  }
-
-  .introTxt {
-    margin: auto;
-    top: 10%;
-    width: 80%;
-    margin-left: 5%;
-  }
-
-  .introTxt p {
-    font-size: 1.5rem;
-  }
-  .introTxt h1 {
-    font-size: 3rem;
-  }
+    .iPhoneImg {
+        display: none;
+    }
+    .mainPageContent {
+        text-align: center;
+    }
+    .introTxt {
+        margin: auto;
+        top: 10%;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .introTxt p {
+        font-size: 1.5rem;
+    }
+    .introTxt h1 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 950px) {
-  .icons {
-    margin: auto;
-  }
-  .icons i {
-    font-size: 3rem;
-    padding-bottom: 10%;
-  }
-
-  .icons i:hover {
-    color: blue;
-    transition: 0.5s;
-  }
+    .icons {
+        margin: auto;
+    }
+    .icons i {
+        font-size: 3rem;
+        padding-bottom: 10%;
+    }
+    .icons i:hover {
+        color: blue;
+        transition: 0.5s;
+    }
+    .introTxt h1 {
+        color: white;
+    }
 }
 
 @media (max-width: 600px) {
-  .mainPageContent {
-    margin-left: 0;
-    overflow-y: auto;
-  }
-
-  #abtTxtSPC {
-    margin-left: 3%;
-  }
-
-  #iconsSPC {
-    margin-left: -3%;
-  }
-
-  .introTxt {
-    top: 15%;
-    width: auto;
-    margin-left: 0;
-  }
-
-  .icons {
-    margin-left: 0px;
-    left: 0;
-  }
-
-  .icons li {
-    padding-left: 0px;
-  }
-
-  /*for skills color change, cant see pink on pink! */
-  #stlChange {
-    color: white;
-  }
+    .mainPageContent {
+        margin-left: 0;
+        overflow-y: auto;
+    }
+    #abtTxtSPC {
+        margin-left: 3%;
+    }
+    #iconsSPC {
+        margin-left: -3%;
+    }
+    .introTxt {
+        top: 15%;
+        width: auto;
+        margin-left: 0;
+    }
+    .icons {
+        margin-left: 0px;
+        left: 0;
+    }
+    .icons li {
+        padding-left: 0px;
+    }
 }

@@ -1,52 +1,65 @@
 /*Main Page*/
+
 html {
-  overflow-x: hidden;
-  overflow-y: auto;
-  background-color: #006de9;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #006de9;
 }
 
 img {
-  pointer-events: none;
+    pointer-events: none;
 }
 
 .mainPageContent {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  margin-left: 70px;
-  text-align: center;
-  /*  border: 5px dotted purple;*/
-  background-image: url(../assets/background.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin-left: 70px;
+    text-align: center;
+    /*  border: 5px dotted purple;*/
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
 }
 
 #logo {
-  margin-top: 5%;
-  float: left;
-  height: 85%;
-  width: auto;
-  /* border: 3px solid green;*/
-
-  /* no highloighting*/
-
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
+    margin-top: 5%;
+    float: left;
+    height: 85%;
+    width: auto;
+    /* border: 3px solid green;*/
+    /* no highloighting*/
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                  supported by Chrome and Opera */
 }
 
-#background {
-  position: absolute;
-  float: right;
-  right: 5%;
-  bottom: 0;
-  /*  border: 5px dotted pink; */
+#logo:hover {
+    height: 95%;
+    transition: 0.3s;
 }
+
+#background {
+    position: absolute;
+    float: right;
+    right: 5%;
+    bottom: 0;
+    /*  border: 5px dotted pink; */
+}
+
+
 /*
 #drake{
   position: absolute;
@@ -57,162 +70,158 @@ img {
 */
 
 .introTxt {
-  position: relative;
-  top: 40%;
-  right: 5%;
-  float: right;
-  /*  border: 2px white dotted; */
-  margin: auto;
-  width: 50%;
+    position: relative;
+    top: 40%;
+    right: 5%;
+    float: right;
+    /*  border: 2px white dotted; */
+    margin: auto;
+    width: 50%;
 }
 
 .introTxt h1 {
-  color: white;
-  font-size: 2.5vw;
-  font-family: "PT Sans", sans-serif;
-  text-align: center;
+    color: white;
+    font-size: 2.5vw;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
 }
 
 #subBioText {
-  padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 #subBioText .fa-github {
-  padding-right: 10px;
-  color: white;
+    padding-right: 10px;
+    color: white;
 }
 
 #subBioText .fa-github:hover {
-  color: gray;
+    color: gray;
 }
 
 #subBioText .fa-linkedin-in {
-  padding-right: 10px;
-  color: #0000a0;
+    padding-right: 10px;
+    color: #0000a0;
 }
 
 #subBioText .fa-linkedin-in:hover {
-  padding-right: 10px;
-  color: gray;
+    padding-right: 10px;
+    color: gray;
 }
 
 mark {
-  background-color: yellow;
+    background-color: yellow;
 }
 
 .introTxt p {
-  color: white;
-  font-size: 2vw;
-  font-family: "PT Sans", sans-serif;
-  text-align: center;
+    color: white;
+    font-size: 2vw;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-  html {
-    background-color: #483cba;
-    /*  border: 5px dotted purple;
+    html {
+        background-color: #483cba;
+        /*  border: 5px dotted purple;
     background-color: #111111;*/
-    background-image: url(../assets/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+        background-image: url(../assets/background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 2000px) {
-  #logo {
-    margin-top: 5%;
-    height: 75%;
-    width: auto;
-  }
+    #logo {
+        margin-top: 5%;
+        height: 75%;
+        width: auto;
+    }
 }
 
 @media (max-width: 1700px) {
-  #logo {
-    margin-top: 10%;
-    height: 70%;
-    width: auto;
-  }
-
-  .introTxt {
-    float: right;
-    right: 10%;
-  }
+    #logo {
+        margin-top: 10%;
+        height: 70%;
+        width: auto;
+    }
+    .introTxt {
+        float: right;
+        right: 10%;
+    }
 }
 
 @media (max-width: 1550px) {
-  #logo {
-    margin-top: 10%;
-    height: 60%;
-    width: auto;
-  }
-
-  .introTxt {
-    float: right;
-    right: 5%;
-  }
+    #logo {
+        margin-top: 10%;
+        height: 60%;
+        width: auto;
+    }
+    .introTxt {
+        float: right;
+        right: 5%;
+    }
 }
 
 @media (max-width: 1200px) {
-  #logo {
-    padding-top: 5%;
-    float: none;
-    display: block;
-    margin: 0 auto;
-    height: 50%;
-    width: auto;
-  }
-
-  .introTxt {
-    top: 5%;
-    right: 0;
-    float: none;
-    margin: auto;
-    width: auto;
-    padding-right: 0;
-  }
-
-  .introTxt h1 {
-    color: white;
-    font-size: 2rem;
-    font-family: "PT Sans", sans-serif;
-    text-align: center;
-  }
-
-  .introTxt p {
-    color: white;
-    font-size: 1.5rem;
-    font-family: "PT Sans", sans-serif;
-    text-align: center;
-  }
+    #logo {
+        padding-top: 5%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        height: 50%;
+        width: auto;
+    }
+    .introTxt {
+        top: 5%;
+        right: 0;
+        float: none;
+        margin: auto;
+        width: auto;
+        padding-right: 0;
+    }
+    .introTxt h1 {
+        color: white;
+        font-size: 2rem;
+        font-family: "PT Sans", sans-serif;
+        text-align: center;
+    }
+    .introTxt p {
+        color: white;
+        font-size: 1.5rem;
+        font-family: "PT Sans", sans-serif;
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
-  .mainPageContent {
-    padding-top: 15%;
-    overflow-y: auto;
-    margin-left: 0;
-
-    overflow-x: hidden;
-  }
-
-  #logo {
-    height: 45%;
-    width: auto;
-  }
+    .mainPageContent {
+        padding-top: 15%;
+        overflow-y: auto;
+        margin-left: 0;
+        overflow-x: hidden;
+    }
+    #logo {
+        height: 45%;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  html,
-  body {
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-
-  #logo {
-    margin-top: 5%;
-  }
-  .mainPageContent {
-    position: absolute;
-  }
+    html,
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .mainPageContent {
+        position: relative;
+        height: 100vh;
+    }
+    @media screen and (max-width: 360px) {
+        .mainPageContent {
+            position: relative;
+            height: 100%;
+        }
+    }
 }
