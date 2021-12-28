@@ -1,14 +1,12 @@
 /*Proj Page*/
 
-html {
-    /* background-color: rgb(249, 149, 74); */
-}
-
 
 /* if there is a prob with x-scrolling. it will be because padding-right on imgs*/
 
 html,
 body {
+    height: auto!important;
+    max-width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -56,7 +54,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 10px;
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .websites>div img {
@@ -150,17 +148,12 @@ body {
 
 @media (max-width: 600px) {
     .websites>div img {
-        max-width: 70%;
+        /* max-width: 70%; */
         height: 150px;
     }
     .mainPageContent {
         padding-top: 25%;
         margin-left: 0;
-    }
-    html,
-    body {
-        height: 100%;
-        overflow-x: hidden;
     }
     .websites {
         width: 340px;
