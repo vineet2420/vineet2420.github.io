@@ -216,6 +216,9 @@ h2 {
 }
 
 @media (max-width: 600px) {
+    .extendedGrid {
+        width: auto;
+    }
     .mainPageContent {
         margin-left: 0;
         overflow-y: auto;
