@@ -3,7 +3,48 @@
 html {
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #006de9;
+    /* background-image: linear-gradient( 135deg, #6B73FF 10%, #000DFF 100%); */
+    background: linear-gradient(261deg, #6a11cb, #2575fc 99.8%);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 img {
@@ -16,11 +57,6 @@ img {
     width: 100%;
     margin-left: 70px;
     text-align: center;
-    /*  border: 5px dotted purple;*/
-    background-image: url(../assets/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     overflow-y: hidden;
 }
 
@@ -118,18 +154,6 @@ mark {
     font-size: 2vw;
     font-family: "PT Sans", sans-serif;
     text-align: center;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-    html {
-        background-color: #483cba;
-        /*  border: 5px dotted purple;
-    background-color: #111111;*/
-        background-image: url(../assets/background.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 }
 
 @media (max-width: 2000px) {
